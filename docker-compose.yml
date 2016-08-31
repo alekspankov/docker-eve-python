@@ -1,13 +1,13 @@
 version: '2'
 services:
-    web: 
-        build: .
-        ports: 
+    web:
+        image: aleksxp/docker-eve-python
+        ports:
             - "5000:5000"
         volumes:
             - .:/usr/src/app
-        depends_on: 
+        depends_on:
             - mongo
-    
+
     mongo:
         image: mongo
