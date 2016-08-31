@@ -1,6 +1,8 @@
 Eve Docker Image
 ==================
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000?style=flat-square)](https://hub.docker.com/r/aleksxp/docker-eve-python/)
+
 Building image for Eve ([EVE Homepage](http://python-eve.org/))
 
 ### Prerequisites
