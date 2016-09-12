@@ -4,3 +4,4 @@
 #
 
 eve
+flask-cors
