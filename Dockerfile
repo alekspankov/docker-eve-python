@@ -1,4 +1,4 @@
 FROM python:2.7-onbuild
-MAINTAINER Alexander Pankov 
+MAINTAINER Alexander Pankov
 
-CMD ["python", "./app.py"]
+CMD ["python", "./run.py"]
