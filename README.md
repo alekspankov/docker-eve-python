@@ -2,6 +2,7 @@ Eve Docker Image
 ==================
 
 [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000?style=flat-square)](https://hub.docker.com/r/aleksxp/docker-eve-python/)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Building image for Eve ([EVE Homepage](http://python-eve.org/)).
 
@@ -34,7 +35,7 @@ docker-compose up -d
 Build from Dockerfile
 ---------------------
 
-1. Run ```docker pull python:2.7-onbuild``` to upgrade your local version of base Python image.
+1. Run ```docker pull python:2.7-onbuild``` to upgrade your local version of base [Python image](https://hub.docker.com/_/python/).
 1. Clone git repository:
     ```
     git clone https://github.com/alekspankov/docker-eve-python.git
