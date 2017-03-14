@@ -1,7 +1,15 @@
 #
 ####### requirements.txt #######
-####### Setup Eve ############
 #
 
-eve
-flask-cors
+#
+####### Eve              #######
+####### 0.7.2 - latest   #######
+#
+eve == 0.7.2
+
+#
+####### Flask CORS       #######
+####### Latest 3.0.2     #######
+
+flask-cors == 3.0.2
