@@ -8,19 +8,31 @@ Building image for Eve ([EVE Homepage](http://python-eve.org/)).
 
 Author: Alexander Pankov <ap@wdevs.ru>
 
+### Current version
+
+Current package version is 0.2.0, includes:
+
+- [Eve 0.8.1](https://github.com/pyeve/eve)
+- [Flask CORS](https://flask-cors.readthedocs.io/en/latest/)
+
 ### Prerequisites
+
+- [Docker](https://docs.docker.com/) 
+- [Docker Compose](https://docs.docker.com/compose/) - *optional*
+
+### Dependencies
 
 This image requires [Mongo](https://hub.docker.com/_/mongo/). Pull and run it:
 
 ```bash
-docker run -d --name some-mongo mongo
+$ docker run -d --name some-mongo mongo
 ```
 
 RUN
 ---
 
 ```bash
-docker run -d --name some-eve -p 5000:5000 -v $(pwd):/usr/src/app --link some-mongo:mongo aleksxp/docker-eve-python
+$ docker run -d --name some-eve -p 5000:5000 -v $(pwd):/usr/src/app --link some-mongo:mongo aleksxp/docker-eve-python
 ```
 
 RUN with docker-compose
@@ -29,7 +41,7 @@ RUN with docker-compose
 The repo includes **docker-compose.yml**. To use it run:
 
 ```bash
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 Build from Dockerfile
