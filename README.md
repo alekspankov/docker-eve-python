@@ -12,7 +12,7 @@ Author: Alexander Pankov <ap@wdevs.ru>
 
 Current package version is 0.2.0, includes:
 
-- [Eve 0.8.1](https://github.com/pyeve/eve)
+- [Eve 0.8](https://github.com/pyeve/eve)
 - [Flask CORS](https://flask-cors.readthedocs.io/en/latest/)
 
 ### Prerequisites

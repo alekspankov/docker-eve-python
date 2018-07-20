@@ -6,4 +6,4 @@ CHANGELOG
 
 **July 20, 2018**
 
-- Eve version updated to **0.8.1**.
+- Eve version updated to **0.8**.
