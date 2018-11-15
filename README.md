@@ -4,6 +4,10 @@ Eve Docker Image
 [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000?style=flat-square)](https://hub.docker.com/r/aleksxp/docker-eve-python/)
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 
+[![](https://images.microbadger.com/badges/image/aleksxp/docker-eve-python.svg)](https://microbadger.com/images/aleksxp/docker-eve-python "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/aleksxp/docker-eve-python.svg)](https://microbadger.com/images/aleksxp/docker-eve-python "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/aleksxp/docker-eve-python.svg)](https://microbadger.com/images/aleksxp/docker-eve-python "Get your own commit badge on microbadger.com")
+
 
 Building image for Eve ([EVE Homepage](http://docs.python-eve.org/en/latest/index.html)).
 
